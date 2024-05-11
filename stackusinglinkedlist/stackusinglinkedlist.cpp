@@ -8,8 +8,7 @@ public:
 	int data;
 	Node* next;
 
-	Node()
-	{
+	Node() {
 		next = NULL;
 	}
 };
@@ -42,8 +41,9 @@ public:
 		if (isEmpty())
 		{
 			cout << "Stack is empty." << endl;
-			return;
 		}
+		cout << "Popped value: " << top->data << endl;
+		top = top->next;//update the top pointer to the next node
 	}
 
 
