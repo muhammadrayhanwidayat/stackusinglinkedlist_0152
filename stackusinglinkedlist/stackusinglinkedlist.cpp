@@ -62,6 +62,10 @@ public:
 			cout << endl;
 		}//return the value of the top node
 	}
+	bool isEmpty()
+	{
+		return top == NULL;
+	}
 };
 
 int main()
