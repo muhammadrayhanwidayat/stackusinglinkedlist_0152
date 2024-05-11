@@ -62,15 +62,16 @@ public:
 			cout << endl;
 		}//return the value of the top node
 	}
+	//isempty operation :check if the satck is empty
 	bool isEmpty()
 	{
-		return top == NULL;
+		return top == NULL;//return true if the top pointer is null,indicating an empty stack
 	}
 };
 
 int main()
 {
-    
+	stack stack;
 }
 
 
