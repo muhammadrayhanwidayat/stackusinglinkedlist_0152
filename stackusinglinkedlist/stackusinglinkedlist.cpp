@@ -14,6 +14,11 @@ public:
 	}
 };
 
+//stack class
+class stack
+{
+}
+
 
 
 int main()
